@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     TextView tvResults;
     Button btnPush;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void buttonPushClick (View view) {
 
-        tvResults.setText("is a great Android programmer!");
+        tvResults.setText(tvName.getText().toString() + " " + "is a great Android programmer!");
 
 
 
